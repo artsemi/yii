@@ -1,0 +1,8 @@
+2014/10/03 15:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sgii".' in Z:\home\yii\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 Z:\home\yii\www\framework\web\CWebApplication.php(141): CWebApplication->runController('sgii')
+#1 Z:\home\yii\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 Z:\home\yii\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=sgii
+---
